@@ -97,7 +97,7 @@
 
 * JPA 
 
-    * entity mapping: ERD를 JPA entity로 변환해보기 
+    * [entity mapping: ERD를 JPA entity로 변환해보기](https://github.com/portfolio-y0711/2021_kotlin/tree/jpa)
 
     * h2 mem + devtools refresh + dml on-load-query (src/main/resource/data.sql)로 점진적 개발 연습해보기 
 
