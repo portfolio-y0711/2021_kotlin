@@ -1,11 +1,12 @@
-package com.app.getItJob
+package com.webapp
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class GetItJobSpringBootApplication
+class SpringApplication
 
 fun main(args: Array<String>) {
-	runApplication<GetItJobSpringBootApplication>(*args)
+    runApplication<SpringApplication>(*args)
 }
+
