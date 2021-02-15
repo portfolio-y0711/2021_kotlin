@@ -1,11 +1,11 @@
-package com.app.getItJob
+package com.exercise
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class GetItJobSpringBootApplication
+class KotlinbootApplication
 
 fun main(args: Array<String>) {
-	runApplication<GetItJobSpringBootApplication>(*args)
+	runApplication<KotlinbootApplication>(*args)
 }

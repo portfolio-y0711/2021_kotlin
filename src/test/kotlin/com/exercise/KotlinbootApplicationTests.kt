@@ -1,10 +1,10 @@
-package com.app.getItJob
+package com.exercise
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class GetItJobApplicationTests {
+class KotlinbootApplicationTests {
 
 	@Test
 	fun contextLoads() {
