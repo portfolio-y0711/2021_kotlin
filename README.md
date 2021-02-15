@@ -1,6 +1,6 @@
-## Kotlin Spring Boot 애자일 샌드박스 실습 프로젝트 
+## Kotlin Spring Boot 애자일 연습 프로젝트 
 
-> Kotlin 환경에서의 Spring Boot에 좀더 익숙해지기 위해 시작한 샌드박스 실습 프로젝트입니다. 
+> Kotlin 환경에서의 Spring Boot에 좀더 익숙해지기 위해 시작한 애자일 연습 프로젝트입니다. 
 
 <br/>
 
@@ -11,25 +11,24 @@
 
 목차 
 
-1. 동 기 (Motivation) 및 증명 개념 (Concepts)
+1. 동 기 (Motivation) 
 
-2. 증명 과제 (Subjects for Proof of Concept)
+2. 연습 과제 (Exercises)
 
 * Spring Boot
 
     * TDD Mvc
 
-        * inside out: entity -> repository -> service -> controller 방향으로 TDD 연습하기 
+        [`브랜치로 바로가기 >>>>> branch: tdd_mvc`](https://github.com/portfolio-y0711/2021_kotlin/tree/tdd_mvc)
 
-        * outside in: controller -> service -> repository -> entity 방향으로 TDD 연습하기 
 
     * Functional Router
 
-    * JPA 
+        [`브랜치로 바로가기 >>>>> branch: fcn_router`](https://github.com/portfolio-y0711/2021_kotlin/tree/fcn_router)
 
-        * entity mapping: ERD를 JPA entity로 변환해보기 
+    * JPA를 이용한 데이터베이스 설계
 
-        * h2 mem + devtools refresh + dml on-load-query (src/main/resource/data.sql)로 점진적 개발 연습해보기 
+        [`브랜치로 바로가기 >>>>> branch: jpa_modeling`](https://github.com/portfolio-y0711/2021_kotlin/tree/jpa_modeling)
 
 * Kotlin
 
@@ -52,12 +51,12 @@
 
 <br/>
 
-🔥 **_코틀린 샌드박스 프로젝트_** 를 시작하게 된 **_주요 동기_**:   
+🔥 **_코틀린 연습 프로젝트_** 를 시작하게 된 **_주요 동기_**:   
 
-* **_코틀린 생태계 경험해보기_**: Spring Framework + Java 백엔드 서버 프로그래밍을 Express + Nodejs(Typescript)로 대체한 이후 Javascript 언어의 표현력과 Typescript의 null safe 프로그래밍에 매우 만족하게 되었습니다. 이에 좀 더 우아한 표현력과 null safe한 특성을 가진 코틀린 언어와 생태계를 직접 경험해 보기 위해서 샌드박스 프로젝트를 시작하게 되었습니다. 
+* **_코틀린 생태계 경험해보기_**: Spring Framework + Java 백엔드 서버 프로그래밍을 Express + Nodejs(TS)로 대체한 이후 Javascript 언어의 표현력과 TS의 null safe 프로그래밍에 매우 만족하게 되었습니다. 이에 좀 더 **_간결하고 우아한 표현력_** 으로  null safe한 프로그래밍을 가능하게 하는 코틀린 생태계를 직접 경험해 보기 위해서 코틀린 연습 프로젝트를 시작하게 되었습니다. 
 
-* **_스프링 부트_** 를 이용한 **_애자일_** 연습해보기: 서버프로그래밍을 Express + Nodejs 조합으로 변경했던 것은 Java 언어가 가진 장황함 때문이기도 했으나, 결정적으로는 Spring이 RestApi 위주의 소규모 백엔드 서버를 개발하는데는 과한 툴이라는 생각에서였습니다. 하지만 최근에 Spring Boot에서도 함수형 router를 이용하여 간결하고 신속한 개발이 가능하다는 것을 확인하게 되었습니다. 
 
+* **_스프링 부트_** 를 이용한 **_애자일_** 실천: 서버 프로그래밍을 노드로 바꾼 것은 장황한 코드 작성을 강제하는 Java 언어의 한계 외에도 Spring Framework이 소규모 백엔드 서버를 개발하는데 **_무겁고 과한 툴_** 이라는 생각때문이었습니다. 하지만 Spring Boot의 **_간결한 설정_** 과 **_함수형 router_**, **_Kotlin_** 을 함께 사용한다면  노드에서와 같은 간결하고 스피디한 개발을 가능할 것 같다는 판단이 들었습니다. 
 
 <br/>
 
@@ -87,19 +86,18 @@
 
 🐥 **_과제_** :   
 
-* TDD Mvc
+* TDD WebMvc
 
-    * inside out: entity -> repository -> service -> controller 방향으로 TDD 연습하기 
-
-    * outside in: controller -> service -> repository -> entity 방향으로 TDD 연습하기 
+    * TDD를 통해 Spring Boot Mvc를 점진적으로 개발하기 
 
 * Functional Router
 
-* JPA 
-
-    * [entity mapping: ERD를 JPA entity로 변환해보기](https://github.com/portfolio-y0711/2021_kotlin/tree/jpa)
+* [JPA](https://github.com/portfolio-y0711/2021_kotlin/tree/jpa)
 
     * h2 mem + devtools refresh + dml on-load-query (src/main/resource/data.sql)로 점진적 개발 연습해보기 
+
+    * ERD 산출물을 JPA entity Mapping으로 변환하기  
+
 
 #### 2-2. Kotlin 
 
